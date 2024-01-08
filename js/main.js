@@ -104,7 +104,7 @@ $(document).ready(function () {
   });
 });
 
-//波浪動畫
+//波浪動畫//
 const canvases = document.querySelectorAll(".waveCanvas"); // 使用 class 選擇器
 const ctxArray = Array.from(canvases).map((canvas) => canvas.getContext("2d"));
 
